@@ -1,3 +1,39 @@
 .App-welcome {
-  text-align: center;
+    text-align: center;
+}
+
+.cur-sel {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 5px;
+    /* float: right; */
+}
+
+.back-nav {
+    width: 50%;
+    /* float: left; */
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav div {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: block;
+}
+
+main,
+nav {
+    margin: 0 calc((5px + ( 60 - 5) * (100vw - 400px)/(1280 - 400))/2);
 }
